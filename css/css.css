@@ -1,0 +1,23 @@
+body{
+    background-color: dimgray;
+font-family:sans-serif;
+}
+h1{
+    font-weight: 100;
+    font-family:sans-serif;
+    background-color: aquamarine;
+    border: green 2px solid;
+    margin: 5px;
+    padding: 5px;
+    color: green;
+    box-shadow: 1px 1px 5px 0px darkslategrey;
+    
+}
+.conteiner p{
+    background-color:white;
+    padding: 5px;
+    margin: 5px;
+    border: green 2px solid;
+    box-shadow: 1px 1px 5px 0px darkslategrey;
+    
+}
