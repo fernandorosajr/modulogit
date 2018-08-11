@@ -1,9 +1,6 @@
 body{
     background-color: dimgray;
-<<<<<<< HEAD
-font-family:sans-serif;
-=======
->>>>>>> c5953331a323c5e431b407e301a1d4dfc4f88f95
+    font-family:sans-serif;
 }
 h1{
     font-weight: 100;
@@ -13,7 +10,6 @@ h1{
     margin: 5px;
     padding: 5px;
     color: green;
-<<<<<<< HEAD
     box-shadow: 1px 1px 5px 0px darkslategrey;
     
 }
@@ -24,6 +20,4 @@ h1{
     border: green 2px solid;
     box-shadow: 1px 1px 5px 0px darkslategrey;
     
-=======
->>>>>>> c5953331a323c5e431b407e301a1d4dfc4f88f95
 }
