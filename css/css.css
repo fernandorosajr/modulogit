@@ -1,16 +1,17 @@
 body{
-    background-color: dimgray;
-    font-family:sans-serif;
+    background-color:burlywood;
+    font-family: "Droid Sans Mono","DejaVu Sans Mono",monospace;
 }
 h1{
     font-weight: 100;
-    font-family:sans-serif;
+   font-family: "Droid Sans Mono","DejaVu Sans Mono",monospace;
     background-color: aquamarine;
     border: green 2px solid;
     margin: 5px;
     padding: 5px;
     color: green;
     box-shadow: 1px 1px 5px 0px darkslategrey;
+    
     
 }
 .conteiner p{
