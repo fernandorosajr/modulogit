@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0px;
+     box-sizing:border-box;
+     font-family:Arial;
+    
+}
+p{
+    margin: 3px;
+    padding: 3px;
+    font-size: 14px;
+}
+
+body{
+    
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+     box-sizing:border-box;
+    height: 100%;
+    overflow: auto;
+    background-color: #eee;
+    color:#666;
+    border: 1px solid black;
+    border-top: none;
+}
+.area{
+    position: absolute;
+    height: calc(100%);
+    
+    display: flex;
+    justify-content: flex-end;
+    overflow: hidden;
+}
+.m_title{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+   
+    border: none;
+   
+    border-bottom: 1px solid black;
+    border-top:  1px solid black;
+    
+    height: 25px;
+    line-height: 25px;
+    padding-left: 5px;
+    z-index: 1;
+    
+    display: flex;
+    justify-content:space-between;
+
+    background: -webkit-linear-gradient(90deg, #333333, #727171);
+    background: linear-gradient(0deg, #333333, #727171);
+    
+    background: linear-gradient(0deg, #333, #727171);
+    background-size: auto;
+    color: #C2BEBE;
+    
+}
+.menu{
+    height: 15px;
+    width: 25px;
+    padding: 2px;
+ 
+}
+.menu div{
+    background-color: #ccc;
+    height: 3px;
+    margin: 2px
+}
+.m_title h1{
+   
+    display: block;
+    font-weight: 100;
+    font-size: 12px;
+    color:##C2BEBE;
+    flex: 1;
+    text-align: center;
+}
+.btns_group{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btns_group button{
+    
+    border-radius: 24px;
+    height: 10px;
+    width: 10px;
+    background-color: #ccc;
+    margin-left: 3px;
+    border: 0px solid #fff;
+    
+}
+
+.btns_group button.min{
+    background-color: #D9C80B;
+}
+
+.btns_group button.max{
+    background-color:#0A8924;
+}
+
+.btns_group button.close{
+    background-color:#C21717;
+}
+
+.container{
+    
+  
+    display: flex;
+
+}
+
+.left_container{
+    
+    flex: 1;
+    min-width: 240px;
+    overflow: auto;
+}
+
+.right_container{
+    flex: 3;
+    overflow: auto;
+}
+.container div{
+    margin-top: 30px;
+    margin-bottom: 25px;
+    height: calc(100% - 55px);
+    
+    
+}
+
+footer{
+    position: absolute;
+    background-color:#ccc;
+    height: 25px;;
+    top: auto;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    text-align:center;
+    font-family:monospace;
+    line-height: 25px;
+}
